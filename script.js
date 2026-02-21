@@ -15,7 +15,7 @@ btn.addEventListener("click", function () {
     }
 });
 
-remove-btn.addEventListener("click", function () {
+remove.addEventListener("click", function () {
     var output = document.getElementById("output");
-    output.innerHTML = "";
+    output.removeChild(output.lastChild);
 });
